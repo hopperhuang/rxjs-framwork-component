@@ -129,7 +129,7 @@ function Model(models) {
   };
 }
 const subModel1 = {
-  // 定义
+  // 定义数据结构。
   data: {
     country: {
       name: 'china',
@@ -138,6 +138,7 @@ const subModel1 = {
     continent: 'asia',
     people: [5, 6, 7],
   },
+  // 用于定义通过相应subject改变相应数据结构的方法。
   subscribe: [
     {
       // 根据Key来设定订阅方法。
